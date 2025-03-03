@@ -47,7 +47,7 @@ const RestaurantPage = async ({ params }: RestaurantPageComponent) => {
           buttonText="Para levar"
           imageAlt="para levar"
           imageUrl="/takeaway.png"
-          option="TAKE_AWAY"
+          option="TAKEAWAY"
           slug={slug}
         />
       </div>
