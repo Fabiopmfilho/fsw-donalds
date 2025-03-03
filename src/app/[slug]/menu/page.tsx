@@ -28,7 +28,6 @@ const RestaurantMenuPage = async ({
       },
     },
   });
-  console.log(restaurant?.menuCategories);
   if (!isConsumptionMethodValid(consumptionMethod)) {
     return notFound();
   }
